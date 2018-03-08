@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9u6-by-NPc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pokemon Table View Controller-->
+        <scene sceneID="J6y-Fw-SR2">
+            <objects>
+                <tableViewController id="9u6-by-NPc" customClass="PokemonTableViewController" customModule="PrettyGoodPokedex" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sh2-ck-EYI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PeopleCell" id="CTa-SL-nTa" customClass="PokemonTableViewCell" customModule="PrettyGoodPokedex" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CTa-SL-nTa" id="Esk-zy-EjD">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="49.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smilingFace" translatesAutoresizingMaskIntoConstraints="NO" id="ZeQ-kG-kcU">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="50" id="JUo-e1-bkS"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PsK-8m-UOG">
+                                            <rect key="frame" x="60" y="14" width="76" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ZeQ-kG-kcU" firstAttribute="leading" secondItem="Esk-zy-EjD" secondAttribute="leading" id="0d7-lH-LIT"/>
+                                        <constraint firstAttribute="bottom" secondItem="ZeQ-kG-kcU" secondAttribute="bottom" id="6oK-hk-P1I"/>
+                                        <constraint firstItem="ZeQ-kG-kcU" firstAttribute="leading" secondItem="Esk-zy-EjD" secondAttribute="leading" id="KYy-Ke-rYZ"/>
+                                        <constraint firstItem="PsK-8m-UOG" firstAttribute="leading" secondItem="ZeQ-kG-kcU" secondAttribute="trailing" constant="10" id="RB0-AQ-mLg"/>
+                                        <constraint firstItem="ZeQ-kG-kcU" firstAttribute="top" secondItem="Esk-zy-EjD" secondAttribute="top" id="Z2o-ID-CXL"/>
+                                        <constraint firstAttribute="bottom" secondItem="ZeQ-kG-kcU" secondAttribute="bottom" id="iy3-D6-EMh"/>
+                                        <constraint firstItem="PsK-8m-UOG" firstAttribute="leading" secondItem="ZeQ-kG-kcU" secondAttribute="trailing" constant="10" id="vrT-sM-neC"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="PsK-8m-UOG" id="ooX-xN-Czp"/>
+                                    <outlet property="pokemonImageView" destination="ZeQ-kG-kcU" id="pQC-BJ-uXP"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="9u6-by-NPc" id="hbT-n3-fOk"/>
+                            <outlet property="delegate" destination="9u6-by-NPc" id="b9z-D2-Ohw"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wSc-SS-TwN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="328.80000000000001" y="205.54722638680661"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="smilingFace" width="530" height="530"/>
+    </resources>
+</document>

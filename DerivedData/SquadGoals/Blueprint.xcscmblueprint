@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3EA67860381D7BD90C3AC41E7331A1564D7D7089",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3EA67860381D7BD90C3AC41E7331A1564D7D7089" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "989E9FED-072D-4DEC-9C19-B44A1DE524C2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3EA67860381D7BD90C3AC41E7331A1564D7D7089" : "squadgoals\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SquadGoals",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SquadGoals.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yangjabigail\/squadgoals.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3EA67860381D7BD90C3AC41E7331A1564D7D7089"
+    }
+  ]
+}

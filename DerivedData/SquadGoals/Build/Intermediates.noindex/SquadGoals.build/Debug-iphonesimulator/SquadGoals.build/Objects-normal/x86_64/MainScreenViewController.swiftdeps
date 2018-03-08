@@ -1,0 +1,468 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainScreenViewController"
+provides-nominal:
+- "10SquadGoals24MainScreenViewControllerC"
+provides-member:
+- ["10SquadGoals24MainScreenViewControllerC", ""]
+provides-dynamic-lookup:
+- "circularProgressView"
+- "completeOneDay"
+- "didReceiveMemoryWarning"
+- "increaseProgressButtonTapped"
+- "titleLabel"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "+="
+- !private "/"
+- !private "=="
+- "AssignmentPrecedence"
+- "Double"
+- "KDCircularProgress"
+- "MainScreenViewController"
+- "String"
+- "StringLiteralType"
+- "UIButton"
+- "UILabel"
+- "UIViewController"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So19CAAnimationDelegateP", "angle"]
+- !private ["So19CAAnimationDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "angle"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "angle"]
+- !private ["s7CVarArgP", "angleToDisplay"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "circularProgressView"]
+- !private ["s7CVarArgP", "clicks"]
+- !private ["s7CVarArgP", "dayTotal"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "goalTitle"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "titleLabel"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "angle"]
+- !private ["s28CustomDebugStringConvertibleP", "angleToDisplay"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "circularProgressView"]
+- !private ["s28CustomDebugStringConvertibleP", "clicks"]
+- !private ["s28CustomDebugStringConvertibleP", "dayTotal"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "goalTitle"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "titleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "angle"]
+- !private ["s23CustomStringConvertibleP", "angleToDisplay"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "circularProgressView"]
+- !private ["s23CustomStringConvertibleP", "clicks"]
+- !private ["s23CustomStringConvertibleP", "dayTotal"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "goalTitle"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "titleLabel"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "angle"]
+- !private ["s9EquatableP", "angleToDisplay"]
+- !private ["s9EquatableP", "animate"]
+- !private ["s9EquatableP", "circularProgressView"]
+- !private ["s9EquatableP", "clicks"]
+- !private ["s9EquatableP", "dayTotal"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "goalTitle"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "titleLabel"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "angle"]
+- !private ["s8HashableP", "angleToDisplay"]
+- !private ["s8HashableP", "animate"]
+- !private ["s8HashableP", "circularProgressView"]
+- !private ["s8HashableP", "clicks"]
+- !private ["s8HashableP", "dayTotal"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "goalTitle"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "titleLabel"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["10SquadGoals18KDCircularProgressC", "angle"]
+- !private ["10SquadGoals18KDCircularProgressC", "animate"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["10SquadGoals24MainScreenViewControllerC", "Double"]
+- ["10SquadGoals24MainScreenViewControllerC", "KDCircularProgress"]
+- ["10SquadGoals24MainScreenViewControllerC", "String"]
+- ["10SquadGoals24MainScreenViewControllerC", "UIButton"]
+- ["10SquadGoals24MainScreenViewControllerC", "UILabel"]
+- ["10SquadGoals24MainScreenViewControllerC", "angleToDisplay"]
+- ["10SquadGoals24MainScreenViewControllerC", "circularProgressView"]
+- ["10SquadGoals24MainScreenViewControllerC", "clicks"]
+- ["10SquadGoals24MainScreenViewControllerC", "completeOneDay"]
+- ["10SquadGoals24MainScreenViewControllerC", "dayTotal"]
+- ["10SquadGoals24MainScreenViewControllerC", "deinit"]
+- ["10SquadGoals24MainScreenViewControllerC", "didReceiveMemoryWarning"]
+- ["10SquadGoals24MainScreenViewControllerC", "goalTitle"]
+- ["10SquadGoals24MainScreenViewControllerC", "increaseProgressButtonTapped"]
+- ["10SquadGoals24MainScreenViewControllerC", "init"]
+- ["10SquadGoals24MainScreenViewControllerC", "titleLabel"]
+- ["10SquadGoals24MainScreenViewControllerC", "viewDidLoad"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "angle"]
+- !private ["So8NSCodingP", "angleToDisplay"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "circularProgressView"]
+- !private ["So8NSCodingP", "clicks"]
+- !private ["So8NSCodingP", "dayTotal"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "goalTitle"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "titleLabel"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "angleToDisplay"]
+- !private ["So26NSExtensionRequestHandlingP", "circularProgressView"]
+- !private ["So26NSExtensionRequestHandlingP", "clicks"]
+- !private ["So26NSExtensionRequestHandlingP", "dayTotal"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "goalTitle"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "titleLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "KDCircularProgress"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "angle"]
+- ["So8NSObjectC", "angleToDisplay"]
+- !private ["So8NSObjectC", "animate"]
+- ["So8NSObjectC", "circularProgressView"]
+- ["So8NSObjectC", "clicks"]
+- ["So8NSObjectC", "completeOneDay"]
+- ["So8NSObjectC", "dayTotal"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "goalTitle"]
+- ["So8NSObjectC", "increaseProgressButtonTapped"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "titleLabel"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "angle"]
+- !private ["So16NSObjectProtocolP", "angleToDisplay"]
+- !private ["So16NSObjectProtocolP", "animate"]
+- !private ["So16NSObjectProtocolP", "circularProgressView"]
+- !private ["So16NSObjectProtocolP", "clicks"]
+- !private ["So16NSObjectProtocolP", "dayTotal"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "goalTitle"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "titleLabel"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "angle"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "angle"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "angle"]
+- !private ["So21UIAppearanceContainerP", "angleToDisplay"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "circularProgressView"]
+- !private ["So21UIAppearanceContainerP", "clicks"]
+- !private ["So21UIAppearanceContainerP", "dayTotal"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "goalTitle"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "titleLabel"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "angleToDisplay"]
+- !private ["So18UIContentContainerP", "circularProgressView"]
+- !private ["So18UIContentContainerP", "clicks"]
+- !private ["So18UIContentContainerP", "dayTotal"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "goalTitle"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "titleLabel"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "angle"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "angle"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "angle"]
+- !private ["So18UIFocusEnvironmentP", "angleToDisplay"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "circularProgressView"]
+- !private ["So18UIFocusEnvironmentP", "clicks"]
+- !private ["So18UIFocusEnvironmentP", "dayTotal"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "goalTitle"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "titleLabel"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "angle"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "angle"]
+- !private ["So30UIPasteConfigurationSupportingP", "angleToDisplay"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "circularProgressView"]
+- !private ["So30UIPasteConfigurationSupportingP", "clicks"]
+- !private ["So30UIPasteConfigurationSupportingP", "dayTotal"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "goalTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "titleLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Double"]
+- ["So11UIResponderC", "KDCircularProgress"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "angle"]
+- ["So11UIResponderC", "angleToDisplay"]
+- !private ["So11UIResponderC", "animate"]
+- ["So11UIResponderC", "circularProgressView"]
+- ["So11UIResponderC", "clicks"]
+- ["So11UIResponderC", "completeOneDay"]
+- ["So11UIResponderC", "dayTotal"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "goalTitle"]
+- ["So11UIResponderC", "increaseProgressButtonTapped"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "titleLabel"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "angle"]
+- !private ["So30UIResponderStandardEditActionsP", "angleToDisplay"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "circularProgressView"]
+- !private ["So30UIResponderStandardEditActionsP", "clicks"]
+- !private ["So30UIResponderStandardEditActionsP", "dayTotal"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "goalTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "titleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "angleToDisplay"]
+- !private ["So16UIStateRestoringP", "circularProgressView"]
+- !private ["So16UIStateRestoringP", "clicks"]
+- !private ["So16UIStateRestoringP", "dayTotal"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "goalTitle"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "titleLabel"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "angle"]
+- !private ["So18UITraitEnvironmentP", "angleToDisplay"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "circularProgressView"]
+- !private ["So18UITraitEnvironmentP", "clicks"]
+- !private ["So18UITraitEnvironmentP", "dayTotal"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "goalTitle"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "titleLabel"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "angle"]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "Double"]
+- ["So16UIViewControllerC", "KDCircularProgress"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "angleToDisplay"]
+- ["So16UIViewControllerC", "circularProgressView"]
+- ["So16UIViewControllerC", "clicks"]
+- ["So16UIViewControllerC", "completeOneDay"]
+- ["So16UIViewControllerC", "dayTotal"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "goalTitle"]
+- ["So16UIViewControllerC", "increaseProgressButtonTapped"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "titleLabel"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "angle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "angle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "angleToDisplay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "circularProgressView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clicks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dayTotal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "goalTitle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So19CAAnimationDelegateP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10SquadGoals18KDCircularProgressC"
+- "s25LosslessStringConvertibleP"
+- "10SquadGoals24MainScreenViewControllerC"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "22904da47034f75c85f3516a212f62a8"

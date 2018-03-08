@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "0d5bb05fb9eb8700ac13e508a64c30e5"
+build_time: [1520418312, 793699000]
+inputs:
+  "/Users/aurorajiang/Downloads/session-3-master/PrettyGoodPokedexStarter/squadgoals/SquadGoals/NewGoalViewController.swift": [1520409503, 0]
+  "/Users/aurorajiang/Downloads/session-3-master/PrettyGoodPokedexStarter/squadgoals/SquadGoals/journalTableViewCell.swift": [1520409503, 0]
+  "/Users/aurorajiang/Downloads/session-3-master/PrettyGoodPokedexStarter/PrettyGoodPokedex/PokemonTableViewController.swift": [1520418303, 0]
+  "/Users/aurorajiang/Downloads/session-3-master/PrettyGoodPokedexStarter/squadgoals/SquadGoals/journalViewController.swift": [1520402577, 0]
+  "/Users/aurorajiang/Downloads/session-3-master/PrettyGoodPokedexStarter/squadgoals/SquadGoals/AppDelegate.swift": [1520414075, 0]
+  "/Users/aurorajiang/Downloads/session-3-master/PrettyGoodPokedexStarter/squadgoals/SquadGoals/myEntries.swift": [1520402577, 0]
+  "/Users/aurorajiang/Downloads/session-3-master/PrettyGoodPokedexStarter/squadgoals/SquadGoals/KDCircularProgress.swift": [1520409503, 0]
+  "/Users/aurorajiang/Downloads/session-3-master/PrettyGoodPokedexStarter/PrettyGoodPokedex/PokemonTableViewCell.swift": [1517454832, 0]
+  "/Users/aurorajiang/Downloads/session-3-master/PrettyGoodPokedexStarter/squadgoals/SquadGoals/People.swift": [1520404395, 0]
+  "/Users/aurorajiang/Downloads/session-3-master/PrettyGoodPokedexStarter/squadgoals/SquadGoals/journalTableViewController.swift": [1520402577, 0]
+  "/Users/aurorajiang/Downloads/session-3-master/PrettyGoodPokedexStarter/squadgoals/SquadGoals/MainScreenViewController.swift": [1520409503, 0]
+  "/Users/aurorajiang/Downloads/session-3-master/PrettyGoodPokedexStarter/squadgoals/SquadGoals/JSONHelperFunctions.swift": [1520404334, 0]
